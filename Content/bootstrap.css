@@ -315,7 +315,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #272626;
 }
 
 input,
@@ -4192,10 +4192,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
-  float: left;
+  float: right;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+ 
 }
 
 .navbar-brand:hover,
