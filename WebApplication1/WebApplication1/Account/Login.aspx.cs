@@ -5,11 +5,14 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Owin;
 using WebApplication1.Models;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace WebApplication1.Account
 {
     public partial class Login : Page
     {
+        string connectionString = @"Data Source=DESKTOP-IHJ15RC\MSSQL1;Initial Catalog=addiction;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         protected void Page_Load(object sender, EventArgs e)
         {
             RegisterHyperLink.NavigateUrl = "Register";
@@ -25,37 +28,40 @@ namespace WebApplication1.Account
 
         protected void LogIn(object sender, EventArgs e)
         {
-            if (IsValid)
+            using (SqlConnection sqlcon = new SqlConnection(connectionString))
             {
-                // Validate the user password
-                var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
-                var signinManager = Context.GetOwinContext().GetUserManager<ApplicationSignInManager>();
+                /*
+                 *       sqlCon.Open();
+                        SqlCommand sqlCmd = new SqlCommand("demoREG", sqlCon);
+                        sqlCmd.CommandType = CommandType.StoredProcedure;
+                        sqlCmd.Parameters.AddWithValue("@UserID", Convert.ToInt32(hfUserID.Value == "" ? "0" : hfUserID.Value));
+                        sqlCmd.Parameters.AddWithValue("@EMAIL", Email.Text.Trim());
+                        sqlCmd.Parameters.AddWithValue("@Password", Password.Text.Trim());
+                        sqlCmd.ExecuteNonQuery();
+                        Clear();
+                        lblMessage1.Text = "Submitted Successfully";
+                        Response.Redirect("/Account/Login");
+                 */
+                sqlcon.Open();
+                string query = "SELECT COUNT(1) FROM demoREGISTER WHERE EMAIL=@EMAIL AND PASSWORD= @PASSWORD";
+                SqlCommand sqlCmd = new SqlCommand(query, sqlcon);
 
-                // This doen't count login failures towards account lockout
-                // To enable password failures to trigger lockout, change to shouldLockout: true
-                var result = signinManager.PasswordSignIn(Email.Text, Password.Text, RememberMe.Checked, shouldLockout: false);
-
-                switch (result)
+                sqlCmd.Parameters.AddWithValue("@EMAIL", Email.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@PASSWORD", Password.Text.Trim());
+                int count = Convert.ToInt32(sqlCmd.ExecuteScalar());
+                if (count == 1)
                 {
-                    case SignInStatus.Success:
-                        IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
-                        break;
-                    case SignInStatus.LockedOut:
-                        Response.Redirect("/Account/Lockout");
-                        break;
-                    case SignInStatus.RequiresVerification:
-                        Response.Redirect(String.Format("/Account/TwoFactorAuthenticationSignIn?ReturnUrl={0}&RememberMe={1}", 
-                                                        Request.QueryString["ReturnUrl"],
-                                                        RememberMe.Checked),
-                                          true);
-                        break;
-                    case SignInStatus.Failure:
-                    default:
-                        FailureText.Text = "Invalid login attempt";
-                        ErrorMessage.Visible = true;
-                        break;
+                    Session["EMAIL"] = Email.Text.Trim();
+                    //change page after login
+                    Response.Redirect("/Account/Lockout");
+
+                }
+                else
+                {
+                    FailureText.Text = "Invalid login attempt";
+                    ErrorMessage.Visible = true;
                 }
             }
-        }
+            }
     }
 }
