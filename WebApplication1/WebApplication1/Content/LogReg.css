@@ -315,7 +315,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #ffffff;
-  background-color: #333;
+  background-color: #262626;
   
 }
 
@@ -388,7 +388,8 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-    width: 980px;
+   width: 950px;
+   max-width:100%;
   border-top: 1px solid #84f37c;
 }
 
@@ -2053,8 +2054,8 @@ fieldset[disabled] .btn {
 
 .btn-default {
   color: #fff;
-  background-color: #84f37c;
-  border-color: #84f37c;
+  background-color: #468847;
+  border-color: #468847;
  
 }
 
@@ -3792,7 +3793,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: grey;
+  font-weight: bold;
+  font-size: 16pt;
+  
 }
+
 
 .nav:before,
 .nav:after {
@@ -3817,18 +3823,21 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  
 }
 
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
+  color: white;
+  float: left;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #343131;
 }
 
 .nav > li.disabled > a {
@@ -3866,7 +3875,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav-tabs > li {
-  float: left;
+  float: right;
   margin-bottom: -1px;
 }
 
@@ -4032,6 +4041,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  
+ 
+      
 }
 
 .navbar:before,
@@ -4196,10 +4208,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
-  float: left;
+  float: right;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 48px;
+  font-family:'Hall Fetica';
   line-height: 20px;
+  
+ 
 }
 
 .navbar-brand:hover,
@@ -4277,11 +4292,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    float: right;
     margin: 0;
   }
   .navbar-nav > li {
-    float: left;
+    float: right;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4291,7 +4306,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-left {
-    float: left !important;
+    float: right !important;
   }
   .navbar-right {
     float: right !important;
