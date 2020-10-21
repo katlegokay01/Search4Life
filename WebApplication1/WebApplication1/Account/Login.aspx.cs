@@ -15,7 +15,7 @@ namespace WebApplication1.Account
         string connectionString = @"Data Source=DESKTOP-IHJ15RC\MSSQL1;Initial Catalog=addiction;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         protected void Page_Load(object sender, EventArgs e)
         {
-            RegisterHyperLink.NavigateUrl = "Register";
+            /*RegisterHyperLink.NavigateUrl = "Register";
             // Enable this once you have account confirmation enabled for password reset functionality
             //ForgotPasswordHyperLink.NavigateUrl = "Forgot";
             OpenAuthLogin.ReturnUrl = Request.QueryString["ReturnUrl"];
@@ -23,25 +23,14 @@ namespace WebApplication1.Account
             if (!String.IsNullOrEmpty(returnUrl))
             {
                 RegisterHyperLink.NavigateUrl += "?ReturnUrl=" + returnUrl;
-            }
+            }*/
         }
 
         protected void LogIn(object sender, EventArgs e)
         {
             using (SqlConnection sqlcon = new SqlConnection(connectionString))
             {
-                /*
-                 *       sqlCon.Open();
-                        SqlCommand sqlCmd = new SqlCommand("demoREG", sqlCon);
-                        sqlCmd.CommandType = CommandType.StoredProcedure;
-                        sqlCmd.Parameters.AddWithValue("@UserID", Convert.ToInt32(hfUserID.Value == "" ? "0" : hfUserID.Value));
-                        sqlCmd.Parameters.AddWithValue("@EMAIL", Email.Text.Trim());
-                        sqlCmd.Parameters.AddWithValue("@Password", Password.Text.Trim());
-                        sqlCmd.ExecuteNonQuery();
-                        Clear();
-                        lblMessage1.Text = "Submitted Successfully";
-                        Response.Redirect("/Account/Login");
-                 */
+                
                 sqlcon.Open();
                 string query = "SELECT COUNT(1) FROM demoREGISTER WHERE EMAIL=@EMAIL AND PASSWORD= @PASSWORD";
                 SqlCommand sqlCmd = new SqlCommand(query, sqlcon);
@@ -58,8 +47,8 @@ namespace WebApplication1.Account
                 }
                 else
                 {
-                    FailureText.Text = "Invalid login attempt";
-                    ErrorMessage.Visible = true;
+                   // FailureText.Text = "Invalid login attempt";
+                    //ErrorMessage.Visible = true;
                 }
             }
             }
