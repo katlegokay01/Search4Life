@@ -115,6 +115,7 @@ pre {
   white-space: pre-wrap;
 }
 
+
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -334,6 +335,17 @@ textarea {
   line-height: inherit;
 }
 
+.customPosition{
+    text-align: right;
+    background-color:#4a4a4a;
+    font-size: 16pt;
+    font-family: 'Tw Cen MT';
+    color: #fff;
+}
+customGreen{
+    color: #6bc165;
+}
+
 button,
 input,
 select[multiple],
@@ -461,7 +473,7 @@ cite {
 }
 
 .text-right {
-  text-align: right;
+  
 }
 
 .text-center {

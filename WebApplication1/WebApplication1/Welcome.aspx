@@ -1,110 +1,105 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="Welcome.aspx.cs" Inherits="WebApplication1._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
- <section>
-  <!-- SideNav pushed content -->
-  <a href="#" data-activates="slide-out" class="btn-floating blue-gradient button-collapse btn-lg"><i
-      class="fas fa-bars"></i></a>
-
-  <!-- Sidebar navigation -->
-  <div id="slide-out" class="side-nav fixed">
-    <ul class="custom-scrollbar">
-      <!-- Logo -->
-      <li>
-        <div class="logo-wrapper waves-light">
-          <a href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png"
-              class="img-fluid flex-center"></a>
-        </div>
-      </li>
-      <!--/. Logo -->
-      <!--Social-->
-      <li>
-        <ul class="social">
-          <li><a href="#" class="icons-sm fb-ic"><i class="fab fa-facebook-f"> </i></a></li>
-          <li><a href="#" class="icons-sm pin-ic"><i class="fab fa-pinterest"> </i></a></li>
-          <li><a href="#" class="icons-sm gplus-ic"><i class="fab fa-google-plus-g"> </i></a></li>
-          <li><a href="#" class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a></li>
-        </ul>
-      </li>
-      <!--/Social-->
-      <!--Search Form-->
-      <li>
-        <form class="search-form" role="search">
-          <div class="form-group md-form mt-0 pt-1 waves-light">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-        </form>
-      </li>
-      <!--/.Search Form-->
-      <!-- Side navigation links -->
-      <li>
-        <ul class="collapsible collapsible-accordion">
-          <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i> Submit
-              blog<i class="fas fa-angle-down rotate-icon"></i></a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="#" class="waves-effect">Submit listing</a>
-                </li>
-                <li><a href="#" class="waves-effect">Registration form</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-hand-pointer"></i>
-              Instruction<i class="fas fa-angle-down rotate-icon"></i></a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="#" class="waves-effect">For bloggers</a>
-                </li>
-                <li><a href="#" class="waves-effect">For authors</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-eye"></i> About<i
-                class="fas fa-angle-down rotate-icon"></i></a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="#" class="waves-effect">Introduction</a>
-                </li>
-                <li><a href="#" class="waves-effect">Monthly meetings</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-envelope"></i> Contact me<i
-                class="fas fa-angle-down rotate-icon"></i></a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="#" class="waves-effect">FAQ</a>
-                </li>
-                <li><a href="#" class="waves-effect">Write a message</a>
-                </li>
-                <li><a href="#" class="waves-effect">FAQ</a>
-                </li>
-                <li><a href="#" class="waves-effect">Write a message</a>
-                </li>
-                <li><a href="#" class="waves-effect">FAQ</a>
-                </li>
-                <li><a href="#" class="waves-effect">Write a message</a>
-                </li>
-                <li><a href="#" class="waves-effect">FAQ</a>
-                </li>
-                <li><a href="#" class="waves-effect">Write a message</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </li>
-      <!--/. Side navigation links -->
-    </ul>
-    <div class="sidenav-bg rgba-blue-strong"></div>
+<!-- <section >
+ <div class="card text-center text-white bg-dark mb-3" style="width: 18rem;">
+  <div class="card-body">
+    <a href="#" class="btn btn-primary">Victim</a>
   </div>
-  <!--/. Sidebar navigation -->
-  <div id="content" class="sunny-morning-gradient color-block content">
+</div>
 
-
+<div class="card text-center text-white bg-dark mb-3" style="width: 18rem;">
+  <div class="card-body">  
+    <a href="#" class="btn btn-primary">Addicts</a>
   </div>
-        </section>
+</div>
+
+
+<div class="card text-center text-white bg-dark mb-3" style="width: 18rem;">
+  <div class="card-body">
+    <a href="#" class="btn btn-primary">Profile</a>
+  </div>
+</div>
+
+    <div class="card text-center text-white bg-dark mb-3" style="width: 18rem;">
+  <div class="card-body">
+    <a href="#" class="btn btn-primary">Rehab Centres</a>
+  </div>
+</div>
+      </section> 
+    
+     <!--<h4 class="text-right text-white"> <customGreen>WELCOME</customGreen></h4>
+        <p class="text-right text-white" float="left">
+            FOR FIRST TIME USERS PLEASE CLICK ON THE “CREATE PROFILE “AND FILL IN
+ALL THE FIELDS. THE INFORMATION WILL BE KEPT PRIVATE
+        </p>
+     <!--   <div class="row">
+   <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">    
+        <a href="#" class="btn btn-primary">Victims</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+          <h4>WELCOME</h4>    
+        <p>FOR FIRST TIME USERS PLEASE CLICK ON THE “CREATE PROFILE “AND FILL IN
+ALL THE FIELDS. THE INFORMATION WILL BE KEPT PRIVATE.</p>
+      </div>
+    </div>
+  </div>
+
+            <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">      
+        <a href="#" class="btn btn-primary">Addict</a>
+      </div>
+    </div>
+  </div>
+
+            <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+        <p>SUFFERING FROM ADDICTION, GETTING ACCESS TO REHABILITATION
+CENTERS OR MAYBE FINDING A JOB AS A RECOVERING ADDICT? YOU’VE
+REACHED HELP, GO TO “ADDICTS” BUTTON AND THE NAVIGATION CLEARLY
+GUIDES YOU AROUND THE FIELDS.</p>
+      </div>
+    </div>
+  </div>
+
+              <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Profile</a>
+      </div>
+    </div>
+  </div>
+
+                       <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+        <p>DO YOU NEED HELP DEALING WITH AN ADDICT? SEARCH4LIFE PROVIDES
+SUPPORT STRUCTURES TO ACCESS THEM CLICK ON “VICTIM” BUTTON.</p>
+      </div>
+    </div>
+  </div>
+                                <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Rehab Centres</a>
+      </div>
+    </div>
+  </div>
+            </div>-->
+ <ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+
 </asp:Content>
