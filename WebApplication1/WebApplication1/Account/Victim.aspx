@@ -1,17 +1,16 @@
 ﻿<%@ Page Title="VICTIMS" Language="C#" MasterPageFile="~/LogReg.Master" AutoEventWireup="true" CodeBehind="Victim.aspx.cs" Inherits="WebApplication1.Account.Victim" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <div class="jumbotron bg-dark text-white ">
-
       <div align="center"><h2><b><%: Title %><font color="#7aba7b";>.</font></b></h2></div>
 
-     <p><h5>
+     <h5>
 FAMILY MEMBERS OF SUBSTANCE ABUSERS OFTEN FIND THEMSELVES WALKING A FINE LINE.<br /><br />
 ON THE ONE HAND, THEY DESPERATELY WANT TO BE SUPPORTIVE AND TO PROTECT THEIR LOVED<br /><br />
 ONE. ON THE OTHER HAND, THEY DO NOT WANT TO ENABLE THEIR ADDICTION AND<br /><br />
 UNINTENTIONALLY MAKE IT MORE SEVERE OR LONG-LASTING.<br /><br /></h5>
- </p>
+ 
 
      <font color="#7aba7b";><h4>SUPPORT STRUCTURE</h4></font>
            <h5> 
