@@ -1,24 +1,22 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master - LogReg .cs" Inherits="WebApplication1.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="WebApplication1.Main" %>
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %></title>
+    <title><%: Page.Title %> - My ASP.NET Application</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-
     
-     <webopt:bundlereference runat="server" path="~/Content/css" />
-          <link rel="stylesheet" href="Content/LogReg.css" type="text/css" />
-     
-
-      
-
+    
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="Content/Main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form runat="server">
@@ -43,21 +41,24 @@
             </Scripts>
         </asp:ScriptManager>
 
-       <div class="bs-example">
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <a runat="server" href="~/" class="navbar-brand">
-            <img src="../Images/logo.jpg" height="45" width="55" alt="Search4Life" <h6>Search4<logoTextCol>Life</logoTextCol></h6>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav navbar-right">
-               
-            </div>
-            <div class="navbar-nav ml-auto">
-                  <asp:LoginView runat="server" ViewStateMode="Disabled">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                             <li><a runat="server" href="Default2.aspx">Profile</a></li>
+                    </ul>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="~/Account/Register">Register</a></li>
@@ -81,7 +82,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %>  Search4Life by Gijima System Devs</p>
+                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
             </footer>
         </div>
     </form>

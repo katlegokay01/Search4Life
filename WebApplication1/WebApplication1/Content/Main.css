@@ -1,4 +1,4 @@
-/* NUGET: BEGIN LICENSE TEXT
+﻿/* NUGET: BEGIN LICENSE TEXT
  *
  * Microsoft grants you the right to use these script files for the sole
  * purpose of either: (i) interacting through your browser with the Microsoft
@@ -41,7 +41,6 @@ canvas,
 video {
   display: inline-block;
 }
-
 
 audio:not([controls]) {
   display: none;
@@ -312,14 +311,13 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: #ffffff;
-  background-color: #262626;
-  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    background-image:url(/Images/background.jpg);
+    color: #fff;
+    
 }
-
 
 input,
 button,
@@ -338,7 +336,7 @@ textarea {
 }
 
 a {
-  color: #7aba7b;
+  color: #428bca;
   text-decoration: none;
 }
 
@@ -389,9 +387,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-   width: 950px;
-   max-width:100%;
-  border-top: 1px solid #84f37c;
+  border-top: 1px solid #eeeeee;
 }
 
 .sr-only {
@@ -431,7 +427,7 @@ cite {
 }
 
 .text-muted {
-  color: #999999;
+  color: #fff;
 }
 
 .text-primary {
@@ -497,7 +493,7 @@ h6 small,
 .h6 small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: #fff;
 }
 
 h1,
@@ -521,7 +517,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 h3,
@@ -2054,10 +2050,9 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-  color: #fff;
-  background-color: #468847;
-  border-color: #468847;
- 
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
 }
 
 .btn-default:hover,
@@ -2065,9 +2060,9 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  color: #fff;
-  background-color: #4cff00;
-  border-color: #4cae4c;
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
 }
 
 .btn-default:active,
@@ -3794,12 +3789,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: grey;
-  font-weight: bold;
-  font-size: 16pt;
-  
 }
-
 
 .nav:before,
 .nav:after {
@@ -3824,21 +3814,18 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
-  
 }
 
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
-  color: white;
-  float: left;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #343131;
+  background-color: #eeeeee;
 }
 
 .nav > li.disabled > a {
@@ -3876,7 +3863,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav-tabs > li {
-  float: right;
+  float: left;
   margin-bottom: -1px;
 }
 
@@ -4042,9 +4029,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  
- 
-      
 }
 
 .navbar:before,
@@ -4209,13 +4193,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
-  float: right;
+  float: left;
   padding: 15px 15px;
-  font-size: 48px;
-  font-family:'Hall Fetica';
+  font-size: 18px;
   line-height: 20px;
-  
- 
 }
 
 .navbar-brand:hover,
@@ -4293,11 +4274,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-nav {
-    float: right;
+    float: left;
     margin: 0;
   }
   .navbar-nav > li {
-    float: right;
+    float: left;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4307,7 +4288,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-left {
-    float: right !important;
+    float: left !important;
   }
   .navbar-right {
     float: right !important;
@@ -6813,24 +6794,29 @@ td.visible-print {
 }
 
 @media print {
-  .visible-print {
-    display: block !important;
-  }
-  tr.visible-print {
-    display: table-row !important;
-  }
-  th.visible-print,
-  td.visible-print {
-    display: table-cell !important;
-  }
-  .hidden-print {
-    display: none !important;
-  }
-  tr.hidden-print {
-    display: none !important;
-  }
-  th.hidden-print,
-  td.hidden-print {
-    display: none !important;
-  }
+    .visible-print {
+        display: block !important;
+    }
+
+    tr.visible-print {
+        display: table-row !important;
+    }
+
+    th.visible-print,
+    td.visible-print {
+        display: table-cell !important;
+    }
+
+    .hidden-print {
+        display: none !important;
+    }
+
+    tr.hidden-print {
+        display: none !important;
+    }
+
+    th.hidden-print,
+    td.hidden-print {
+        display: none !important;
+    }
 }

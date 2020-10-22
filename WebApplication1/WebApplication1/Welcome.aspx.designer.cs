@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.Account {
+namespace WebApplication1 {
     
     
-    public partial class OpenAuthProviders {
+    public partial class _Default {
     }
 }
