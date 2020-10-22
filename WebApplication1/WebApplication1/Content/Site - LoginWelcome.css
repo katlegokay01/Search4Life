@@ -1,3 +1,4 @@
+﻿
 /* NUGET: BEGIN LICENSE TEXT
  *
  * Microsoft grants you the right to use these script files for the sole
@@ -42,7 +43,6 @@ video {
   display: inline-block;
 }
 
-
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -61,6 +61,19 @@ html {
 body {
   margin: 0;
 }
+logoTextCol{
+    color: #6bc165;
+}
+.sideNav{
+    background-color:rgba(94, 157, 65, 0.06);
+    font-family: 'Tw Cen MT';
+    font-weight:100;
+    font-size: 16pt;
+}
+.sideNavCol{
+    color: #fff;
+}
+
 
 a:focus {
   outline: thin dotted;
@@ -112,6 +125,7 @@ pre {
   white-space: pre-wrap;
 }
 
+
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -120,6 +134,9 @@ small {
   font-size: 80%;
 }
 
+.footerT{
+    color: #fff;
+}
 sub,
 sup {
   position: relative;
@@ -315,11 +332,9 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #ffffff;
+  color: #333333;
   background-color: #262626;
-  
 }
-
 
 input,
 button,
@@ -330,6 +345,17 @@ textarea {
   line-height: inherit;
 }
 
+.customPosition{
+    text-align: right;
+    background-color:#4a4a4a;
+    font-size: 16pt;
+    font-family: 'Tw Cen MT';
+    color: #fff;
+}
+customGreen{
+    color: #6bc165;
+}
+
 button,
 input,
 select[multiple],
@@ -338,7 +364,7 @@ textarea {
 }
 
 a {
-  color: #7aba7b;
+  color: #428bca;
   text-decoration: none;
 }
 
@@ -389,9 +415,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-   width: 950px;
-   max-width:100%;
-  border-top: 1px solid #84f37c;
+  border-top: 1px solid #eeeeee;
 }
 
 .sr-only {
@@ -459,7 +483,7 @@ cite {
 }
 
 .text-right {
-  text-align: right;
+  
 }
 
 .text-center {
@@ -521,7 +545,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 h3,
@@ -960,9 +984,12 @@ pre code {
   }
   .col-sm-5 {
     width: 41.66666666666667%;
+    max-width: 50%;
   }
   .col-sm-6 {
     width: 50%;
+    
+    display: flex;
   }
   .col-sm-7 {
     width: 58.333333333333336%;
@@ -2054,10 +2081,9 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-  color: #fff;
-  background-color: #468847;
-  border-color: #468847;
- 
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
 }
 
 .btn-default:hover,
@@ -2065,9 +2091,9 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  color: #fff;
-  background-color: #4cff00;
-  border-color: #4cae4c;
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
 }
 
 .btn-default:active,
@@ -3794,9 +3820,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: grey;
-  font-weight: bold;
+  background-color: transparent;
+  font-family: 'Tw Cen MT';
   font-size: 16pt;
+  font-weight:100;
   
 }
 
@@ -4101,7 +4128,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-collapse {
   max-height: 340px;
-  padding-right: 15px;
+  padding-right: 50px;
   padding-left: 15px;
   overflow-x: visible;
   border-top: 1px solid transparent;
@@ -4209,8 +4236,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
-  float: right;
+  float: left;
   padding: 15px 15px;
+  
   font-size: 48px;
   font-family:'Hall Fetica';
   line-height: 20px;
@@ -4297,7 +4325,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin: 0;
   }
   .navbar-nav > li {
-    float: right;
+    float: left;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4307,10 +4335,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-left {
-    float: right !important;
+    float: left !important;
   }
   .navbar-right {
-    float: right !important;
+    float: left !important;
   }
 }
 
@@ -4954,7 +4982,8 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #5b5b5b;
+
 }
 
 .jumbotron h1 {

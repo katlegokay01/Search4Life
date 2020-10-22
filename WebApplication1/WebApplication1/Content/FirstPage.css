@@ -123,6 +123,9 @@ small {
   font-size: 80%;
 }
 
+.footerT{
+    color: #fff;
+}
 sub,
 sup {
   position: relative;
@@ -4210,6 +4213,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: right;
   padding: 15px 15px;
+  
   font-size: 48px;
   font-family:'Hall Fetica';
   line-height: 20px;
