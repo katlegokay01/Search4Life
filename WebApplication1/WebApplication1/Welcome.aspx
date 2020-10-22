@@ -94,12 +94,122 @@ SUPPORT STRUCTURES TO ACCESS THEM CLICK ON “VICTIM” BUTTON.</p>
       </div>
     </div>
   </div>
-            </div>-->
- <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
+            </div>
 
+     <h2 class="text-right text-white">WELCOME</h2>
+
+            <div class="">
+            <div class="text-right text-white">
+                <div class="card-body">
+                    <p >some text</p>
+                </div>
+                
+            </div>
+            
+            <div class="text-right text-white">
+                <div class=" card-body">
+                    <p >some text</p>
+                </div>
+            </div>
+
+            <div class="text-right text-white">
+                <div class="card-body">
+                    <p >some text</p>
+                </div>
+            </div>
+                </div>
+    <section class="row">
+<div class="navbar-nav sideNav">
+                <ul class="nav navbar-nav">
+                        <li><a runat="server" href="#">Victim</a></li>
+                        <li><a runat="server" href="#">Addict</a></li>
+                        <li><a runat="server" href="#t">Profile</a></li>
+                    <li><a runat="server" href="#">Rehab Centres</a></li>
+                    </ul>
+            </div>
+    </section>
+
+
+   
+    <div class="row text-white" >
+   <div class="col-sm-6 ">
+    <div class="">
+      <div class="card-body">    
+        <a href="#" class="btn btn-primary">Victims</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+          <h1><logoTextCol>WELCOME</logoTextCol></h1>    
+        <p>FOR FIRST TIME USERS PLEASE CLICK ON THE <logoTextCol> “CREATE PROFILE “</logoTextCol>AND FILL IN
+ALL THE FIELDS. THE INFORMATION WILL BE KEPT PRIVATE.</p>
+      </div>
+    </div>
+  </div>
+
+            <div class="col-sm-6 flex-xl-row">
+    <div class="">
+      <div class="card-body">      
+        <a href="#" class="btn btn-primary">Addict</a>
+      </div>
+    </div>
+  </div>
+
+            <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+        <p>SUFFERING FROM <logoTextCol>ADDICTION</logoTextCol>, GETTING ACCESS TO <logoTextCol>REHABILITATION CENTERS</logoTextCol></>
+ OR MAYBE FINDING A JOB AS A RECOVERING ADDICT? YOU’VE
+REACHED HELP, GO TO  <logoTextCol> “ADDICTS”</logoTextCol> BUTTON AND THE NAVIGATION CLEARLY
+GUIDES YOU AROUND THE FIELDS.</p>
+      </div>
+    </div>
+  </div>
+
+              <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Profile</a>
+      </div>
+    </div>
+  </div>
+
+                       <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+        <p>DO YOU NEED HELP DEALING WITH AN ADDICT? SEARCH4LIFE PROVIDES
+SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <logoTextCol>“VICTIM”</logoTextCol> BUTTON.</p>
+      </div>
+    </div>
+  </div>
+                                <div class="col-sm-6">
+    <div class="">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Rehab Centres</a>
+      </div>
+    </div>
+  </div>
+            </div>-->
+    
+    <div class="jumbotron bg-dark text-white ">
+
+  <h1 class="display-4"><LogoTextCol>WELCOME</LogoTextCol></h1>
+  <p class="lead small">FOR FIRST TIME USERS PLEASE CLICK ON THE  <a runat="server" href="~/#"><logoTextCol>“CREATE PROFILE “</LogoTextCol></a>AND FILL IN
+      ALL THE FIELDS. THE INFORMATION WILL BE KEPT PRIVATE.</p>
+  <hr class="my-4">
+
+  <p >SUFFERING FROM <logoTextCol>ADDICTION</logoTextCol>, GETTING ACCESS TO <a runat="server" href="~/#"><logoTextCol>“REHABILITATION CENTRES “</LogoTextCol></a></>
+ OR MAYBE FINDING A JOB AS A RECOVERING ADDICT? YOU’VE
+REACHED HELP, GO TO<a runat="server" href="~/#"><logoTextCol>“ADDICTS “</LogoTextCol></a> BUTTON AND THE NAVIGATION CLEARLY
+GUIDES YOU AROUND THE FIELDS.</p>
+ 
+
+    <hr class="my-4">
+         <p>DO YOU NEED HELP DEALING WITH AN ADDICT? SEARCH4LIFE PROVIDES
+SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <a runat="server" href="~/#"><logoTextCol>“VICTIM “</LogoTextCol></a> BUTTON.</p>
+         <a class="btn btn-success " href="#" role="button">Quick access</a>
+</div>
 </asp:Content>

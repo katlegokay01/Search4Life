@@ -21,6 +21,9 @@
 
      <webopt:bundlereference runat="server" path="~/Content/css" />
     <link rel="stylesheet" href="../Content/site - LoginWelcome.css" type="text/css" />
+ 
+    
+
 
 </head>
 <body>
@@ -61,8 +64,21 @@
                 <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
+                     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" runat="server" href="~/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <LogoTextCol>Quick access</LogoTextCol>
+        </a>
+        <div class="dropdown-menu text-black-50 bg-" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" runat="server" href="~/#">Victims</a>
+          <a class="dropdown-item" runat="server" href="~/#">Addicts</a>
+            <a class="dropdown-item" runat="server" href="~/#">Profile</a>
+            
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" runat="server" href="~/#">Rehab Centres</a>
+        </div>
+      </li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
-                    <li><a runat="server" href="~/Contact">Gallery</a></li>
+                    
                     </ul>
             </div>
             <div class="navbar-nav ml-auto">
@@ -89,11 +105,16 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
+
+           
+
+            
+            </div>
             <hr />
             <footer >
                 <p>&copy; <%: DateTime.Now.Year %> < Search4Life by Gijima System Devs</p>
             </footer>
-        </div>
+        
     </form>
 </body>
 </html>
