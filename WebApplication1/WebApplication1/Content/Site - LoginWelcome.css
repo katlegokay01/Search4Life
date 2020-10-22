@@ -64,6 +64,16 @@ body {
 logoTextCol{
     color: #6bc165;
 }
+.sideNav{
+    background-color:rgba(94, 157, 65, 0.06);
+    font-family: 'Tw Cen MT';
+    font-weight:100;
+    font-size: 16pt;
+}
+.sideNavCol{
+    color: #fff;
+}
+
 
 a:focus {
   outline: thin dotted;
@@ -974,9 +984,12 @@ pre code {
   }
   .col-sm-5 {
     width: 41.66666666666667%;
+    max-width: 50%;
   }
   .col-sm-6 {
     width: 50%;
+    
+    display: flex;
   }
   .col-sm-7 {
     width: 58.333333333333336%;
@@ -4322,7 +4335,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-left {
-    float: right !important;
+    float: left !important;
   }
   .navbar-right {
     float: left !important;
@@ -4969,7 +4982,8 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #5b5b5b;
+
 }
 
 .jumbotron h1 {
