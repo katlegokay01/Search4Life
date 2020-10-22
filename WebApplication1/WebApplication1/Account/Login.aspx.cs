@@ -30,18 +30,7 @@ namespace WebApplication1.Account
         {
             using (SqlConnection sqlcon = new SqlConnection(connectionString))
             {
-                /*
-                 *       sqlCon.Open();
-                        SqlCommand sqlCmd = new SqlCommand("demoREG", sqlCon);
-                        sqlCmd.CommandType = CommandType.StoredProcedure;
-                        sqlCmd.Parameters.AddWithValue("@UserID", Convert.ToInt32(hfUserID.Value == "" ? "0" : hfUserID.Value));
-                        sqlCmd.Parameters.AddWithValue("@EMAIL", Email.Text.Trim());
-                        sqlCmd.Parameters.AddWithValue("@Password", Password.Text.Trim());
-                        sqlCmd.ExecuteNonQuery();
-                        Clear();
-                        lblMessage1.Text = "Submitted Successfully";
-                        Response.Redirect("/Account/Login");
-                 */
+                
                 sqlcon.Open();
                 string query = "SELECT COUNT(1) FROM demoREGISTER WHERE EMAIL=@EMAIL AND PASSWORD= @PASSWORD";
                 SqlCommand sqlCmd = new SqlCommand(query, sqlcon);
