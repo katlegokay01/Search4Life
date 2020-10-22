@@ -47,7 +47,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-       <div class="bs-example">
+      <div class="">
     <nav class="navbar navbar-expand-md navbar-dark">
         <a runat="server" href="~/" class="navbar-brand">
             <img src="../Images/logo.jpg" height="45" width="55" alt="Search4Life" <h6>Search4<logoTextCol>Life</logoTextCol></h6>
@@ -58,15 +58,34 @@
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav navbar-right">
-               
+                <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/About">About</a></li>
+                     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" runat="server" href="~/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <LogoTextCol>Quick access</LogoTextCol>
+        </a>
+        <div class="dropdown-menu text-black-50 bg-" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" runat="server" href="~/#">Victims</a>
+          <a class="dropdown-item" runat="server" href="~/#">Addicts</a>
+            <a class="dropdown-item" runat="server" href="~/#">Profile</a>
+            
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" runat="server" href="~/#">Rehab Centres</a>
+        </div>
+      </li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                    
+                    </ul>
             </div>
             <div class="navbar-nav ml-auto">
                   <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
-                            <ul class="nav navbar-nav navbar-right">
+                           <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="~/Account/Register">Register</a></li>
                                 <li><a runat="server" href="~/Account/Login">Log in</a></li>
                             </ul>
+                            </div>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <ul class="nav navbar-nav navbar-right">
@@ -83,11 +102,17 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
+
+           
+
+            
+            </div>
             <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %>  Search4Life by Gijima System Devs</p>
+            <footer >
+                <p>&copy; <%: DateTime.Now.Year %> < Search4Life by Gijima System Devs</p>
             </footer>
-        </div>
+        
     </form>
 </body>
 </html>
+
