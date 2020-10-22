@@ -1,5 +1,4 @@
-
-/* NUGET: BEGIN LICENSE TEXT
+﻿/* NUGET: BEGIN LICENSE TEXT
  *
  * Microsoft grants you the right to use these script files for the sole
  * purpose of either: (i) interacting through your browser with the Microsoft
@@ -60,9 +59,6 @@ html {
 
 body {
   margin: 0;
-}
-logoTextCol{
-    color: #6bc165;
 }
 
 a:focus {
@@ -315,11 +311,12 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: #333333;
-  background-color: #262626;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    background-image:url(/Images/background.jpg);
+    color: #fff;
+    
 }
 
 input,
@@ -430,7 +427,7 @@ cite {
 }
 
 .text-muted {
-  color: #999999;
+  color: #fff;
 }
 
 .text-primary {
@@ -496,7 +493,7 @@ h6 small,
 .h6 small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: #fff;
 }
 
 h1,
@@ -864,9 +861,6 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-    top: -10px;
-    left: 0px;
-    width: 968px;
 }
 
 .col-xs-1,
@@ -3793,12 +3787,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: grey;
-  font-weight: bold;
-  font-size: 16pt;
-  
 }
-
 
 .nav:before,
 .nav:after {
@@ -3823,21 +3812,18 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
-  
 }
 
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
-  color: white;
-  float: left;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #343131;
+  background-color: #eeeeee;
 }
 
 .nav > li.disabled > a {
@@ -3875,7 +3861,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav-tabs > li {
-  float: right;
+  float: left;
   margin-bottom: -1px;
 }
 
@@ -4041,9 +4027,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  
- 
-      
 }
 
 .navbar:before,
@@ -4208,13 +4191,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
-  float: right;
+  float: left;
   padding: 15px 15px;
-  font-size: 48px;
-  font-family:'Hall Fetica';
+  font-size: 18px;
   line-height: 20px;
-  
- 
 }
 
 .navbar-brand:hover,
@@ -4292,11 +4272,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-nav {
-    float: right;
+    float: left;
     margin: 0;
   }
   .navbar-nav > li {
-    float: right;
+    float: left;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4306,7 +4286,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-left {
-    float: right !important;
+    float: left !important;
   }
   .navbar-right {
     float: right !important;
@@ -6812,24 +6792,29 @@ td.visible-print {
 }
 
 @media print {
-  .visible-print {
-    display: block !important;
-  }
-  tr.visible-print {
-    display: table-row !important;
-  }
-  th.visible-print,
-  td.visible-print {
-    display: table-cell !important;
-  }
-  .hidden-print {
-    display: none !important;
-  }
-  tr.hidden-print {
-    display: none !important;
-  }
-  th.hidden-print,
-  td.hidden-print {
-    display: none !important;
-  }
+    .visible-print {
+        display: block !important;
+    }
+
+    tr.visible-print {
+        display: table-row !important;
+    }
+
+    th.visible-print,
+    td.visible-print {
+        display: table-cell !important;
+    }
+
+    .hidden-print {
+        display: none !important;
+    }
+
+    tr.hidden-print {
+        display: none !important;
+    }
+
+    th.hidden-print,
+    td.hidden-print {
+        display: none !important;
+    }
 }
