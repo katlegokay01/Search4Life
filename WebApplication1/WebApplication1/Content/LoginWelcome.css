@@ -867,9 +867,6 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-    top: -10px;
-    left: 0px;
-    width: 968px;
 }
 
 .col-xs-1,
@@ -1728,6 +1725,8 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .form-control {
   display: block;
+  width: 100%;
+  height: 34px;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
@@ -4211,7 +4210,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
-  float: right;
+  float: left;
   padding: 15px 15px;
   
   font-size: 48px;
@@ -4300,7 +4299,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin: 0;
   }
   .navbar-nav > li {
-    float: right;
+    float: left;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4310,7 +4309,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-left {
-    float: right !important;
+    float: left !important;
   }
   .navbar-right {
     float: right !important;
