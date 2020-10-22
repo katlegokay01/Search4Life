@@ -1,4 +1,4 @@
-﻿<%@ Page Title="VICTIMS" Language="C#" MasterPageFile="~/LogReg.Master" AutoEventWireup="true" CodeBehind="Victim.aspx.cs" Inherits="WebApplication1.Account.Victim" %>
+﻿<%@ Page Title="VICTIMS" Language="C#" MasterPageFile="~/LogReg.Master" AutoEventWireup="true" CodeBehind="Victim.aspx.cs" Inherits="WebApplication1.Victim" %>
 
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
