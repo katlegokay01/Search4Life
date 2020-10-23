@@ -15,15 +15,7 @@ namespace WebApplication1.Account
         string connectionString = @"Data Source=DESKTOP-IHJ15RC\MSSQL1;Initial Catalog=addiction;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*RegisterHyperLink.NavigateUrl = "Register";
-            // Enable this once you have account confirmation enabled for password reset functionality
-            //ForgotPasswordHyperLink.NavigateUrl = "Forgot";
-            OpenAuthLogin.ReturnUrl = Request.QueryString["ReturnUrl"];
-            var returnUrl = HttpUtility.UrlEncode(Request.QueryString["ReturnUrl"]);
-            if (!String.IsNullOrEmpty(returnUrl))
-            {
-                RegisterHyperLink.NavigateUrl += "?ReturnUrl=" + returnUrl;
-            }*/
+            
         }
 
         protected void LogIn(object sender, EventArgs e)
