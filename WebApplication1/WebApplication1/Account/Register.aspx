@@ -8,7 +8,7 @@
     </p>
 
     <div class="form-horizontal">
-        <h4>CREATE A NEW ACCOUNT</h4>
+        <h4>CREATE A NEW ACCOUNT.</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
         <div class="form-group">
