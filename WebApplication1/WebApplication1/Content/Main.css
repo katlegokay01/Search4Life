@@ -334,6 +334,13 @@ select[multiple],
 textarea {
   background-image: none;
 }
+cl{
+  color:#7aba7b;
+}
+
+abb{
+    text-align:justify;
+}
 
 a {
   color: #428bca;

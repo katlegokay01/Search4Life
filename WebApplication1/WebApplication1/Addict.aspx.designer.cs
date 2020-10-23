@@ -13,58 +13,58 @@ namespace WebApplication1 {
     public partial class Addict {
         
         /// <summary>
-        /// ErrorMessage control.
+        /// gijima control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder ErrorMessage;
+        protected global::System.Web.UI.WebControls.HyperLink gijima;
         
         /// <summary>
-        /// FailureText control.
+        /// yes4youth control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal FailureText;
+        protected global::System.Web.UI.WebControls.HyperLink yes4youth;
         
         /// <summary>
-        /// UserName control.
+        /// harambe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserName;
+        protected global::System.Web.UI.WebControls.HyperLink harambe;
         
         /// <summary>
-        /// Password control.
+        /// SADAG control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Password;
+        protected global::System.Web.UI.WebControls.HyperLink SADAG;
         
         /// <summary>
-        /// RememberMe control.
+        /// Family_Life_Centre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox RememberMe;
+        protected global::System.Web.UI.WebControls.HyperLink Family_Life_Centre;
         
         /// <summary>
-        /// RegisterHyperLink control.
+        /// tell control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink RegisterHyperLink;
+        protected global::System.Web.UI.WebControls.Label tell;
         
         /// <summary>
         /// OpenAuthLogin control.
