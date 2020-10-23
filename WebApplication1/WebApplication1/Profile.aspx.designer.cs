@@ -22,6 +22,15 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.Literal ErrorMessage;
         
         /// <summary>
+        /// hfUserID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hfUserID;
+        
+        /// <summary>
         /// FirstName control.
         /// </summary>
         /// <remarks>
@@ -31,85 +40,85 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.TextBox FirstName;
         
         /// <summary>
-        /// Surname control.
+        /// txtSurname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Surname;
+        protected global::System.Web.UI.WebControls.TextBox txtSurname;
         
         /// <summary>
-        /// Dob control.
+        /// txtDob control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Dob;
+        protected global::System.Web.UI.WebControls.TextBox txtDob;
         
         /// <summary>
-        /// Age control.
+        /// txtAge control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Age;
+        protected global::System.Web.UI.WebControls.TextBox txtAge;
         
         /// <summary>
-        /// Gender control.
+        /// DDGender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Gender;
+        protected global::System.Web.UI.WebControls.DropDownList DDGender;
         
         /// <summary>
-        /// enthicity control.
+        /// DDenthicity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList enthicity;
+        protected global::System.Web.UI.WebControls.DropDownList DDenthicity;
         
         /// <summary>
-        /// address control.
+        /// txtaddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox address;
+        protected global::System.Web.UI.WebControls.TextBox txtaddress;
         
         /// <summary>
-        /// province control.
+        /// DDprovince control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList province;
+        protected global::System.Web.UI.WebControls.DropDownList DDprovince;
         
         /// <summary>
-        /// contact control.
+        /// txtcontact control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox contact;
+        protected global::System.Web.UI.WebControls.TextBox txtcontact;
         
         /// <summary>
-        /// emergencyno control.
+        /// txtemergencyno control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emergencyno;
+        protected global::System.Web.UI.WebControls.TextBox txtemergencyno;
         
         /// <summary>
         /// Chkaddict control.
@@ -173,5 +182,23 @@ namespace WebApplication1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Txtbehavior;
+        
+        /// <summary>
+        /// lblMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+        
+        /// <summary>
+        /// lblMessage0 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage0;
     }
 }
