@@ -3,7 +3,7 @@
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-      <div align="center"><h2><b><%: Title %>.</b></h2></div>
+      <div align="center"><h2><b><%: Title %><font color="#7aba7b";>.</font></b></h2></div>
 
     <div class="row">
         <div class="col-md-8">

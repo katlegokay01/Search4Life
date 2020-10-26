@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/LogReg.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="WebApplication1.Account.Register" %>
+﻿<%@ Page Title="REGISTER" Language="C#" MasterPageFile="~/LogReg.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="WebApplication1.Account.Register" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-     <div align="center"><h2><b><%: Title %>. </b>             
+     <div align="center"><h2><b><%: Title %><font color="#7aba7b";>.</font></b>             
      <asp:HiddenField ID="hfUserID" runat="server" /></h2></div> 
     <p class="text-danger">
         <asp:Literal runat="server" ID="ErrorMessage" />

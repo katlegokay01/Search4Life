@@ -69,11 +69,12 @@
           <LogoTextCol>Quick access</LogoTextCol>
         </a>
         <div class="dropdown-menu text-black-50 bg-" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" runat="server" href="~/#">Profile</a>
+          <a class="dropdown-item" runat="server" href="~/Profile">Profile</a>
             <div class="dropdown-divider"></div>
-          <a class="dropdown-item" runat="server" href="~/#">Victims</a>
-            <a class="dropdown-item" runat="server" href="~/#">Addicts</a>
+          <a class="dropdown-item" runat="server" href="~/Victim">Victims</a>
+            <a class="dropdown-item" runat="server" href="~/Addict">Addicts</a>
           <a class="dropdown-item" runat="server" href="~/#">Rehab Centres</a>
+            <a class="dropdown-item" runat="server" href="~/FAQs.aspx">FAQs</a>
         </div>
       </li>
                         <li><a runat="server" href="~/Contact">Gallery</a></li>
