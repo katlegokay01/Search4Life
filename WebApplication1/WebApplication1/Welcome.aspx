@@ -201,15 +201,15 @@ SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <logoTextCol>“VICTIM”</logoTextCo
       ALL THE FIELDS. THE INFORMATION WILL BE KEPT PRIVATE.</p>
   <hr class="my-4">
 
-  <p >SUFFERING FROM <logoTextCol>ADDICTION</logoTextCol>, GETTING ACCESS TO <a runat="server" href="~/#"><logoTextCol>“REHABILITATION CENTRES “</LogoTextCol></a></>
+  <p >SUFFERING FROM <logoTextCol>ADDICTION</logoTextCol>, GETTING ACCESS TO <a runat="server" href="~/Rehab"><logoTextCol>“REHABILITATION CENTRES “</LogoTextCol></a></>
  OR MAYBE FINDING A JOB AS A RECOVERING ADDICT? YOU’VEE
-REACHED HELP, GO TO<a runat="server" href="~/#"><logoTextCol>“ADDICTS “</LogoTextCol></a> BUTTON AND THE NAVIGATION CLEARLY
+REACHED HELP, GO TO<a runat="server" href="~/Addict"><logoTextCol>“ADDICTS “</LogoTextCol></a> BUTTON AND THE NAVIGATION CLEARLY
 GUIDES YOU AROUND THE FIELDS.</p>
  
 
     <hr class="my-4">
          <p>DO YOU NEED HELP DEALING WITH AN ADDICT? SEARCH4LIFE PROVIDES
-SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <a runat="server" href="~/#"><logoTextCol>“VICTIM “</LogoTextCol></a> BUTTON.</p>
+SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <a runat="server" href="~/Account/Victim"><logoTextCol>“VICTIM “</LogoTextCol></a> BUTTON.</p>
          <a class="btn btn-success " href="#" role="button">Quick access</a>
 </div>
 </asp:Content>

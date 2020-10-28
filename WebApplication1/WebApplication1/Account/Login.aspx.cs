@@ -34,7 +34,7 @@ namespace WebApplication1.Account
                 {
                     Session["EMAIL"] = Email.Text.Trim();
                     //change page after login
-                    Response.Redirect("/Account/Lockout");
+                    Response.Redirect("/Welcome");
 
                 }
                 else
