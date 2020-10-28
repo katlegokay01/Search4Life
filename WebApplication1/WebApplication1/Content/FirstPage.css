@@ -342,7 +342,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #84f37c;
   text-decoration: none;
 }
 
@@ -393,7 +393,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #84f37c;
 }
 
 .sr-only {

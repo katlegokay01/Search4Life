@@ -198,7 +198,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Account\Victim.aspx" />
+    <Content Include="Victim.aspx" />
     <Content Include="Addict.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\FirstPage.css" />
@@ -206,6 +206,7 @@
     <Content Include="Content\LogReg.css" />
     <Content Include="Content\Main.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="FAQs.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -373,11 +374,11 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\Victim.aspx.cs">
+    <Compile Include="Victim.aspx.cs">
       <DependentUpon>Victim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\Victim.aspx.designer.cs">
+    <Compile Include="Victim.aspx.designer.cs">
       <DependentUpon>Victim.aspx</DependentUpon>
     </Compile>
     <Compile Include="Addict.aspx.cs">
@@ -411,6 +412,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQs.aspx.cs">
+      <DependentUpon>FAQs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQs.aspx.designer.cs">
+      <DependentUpon>FAQs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

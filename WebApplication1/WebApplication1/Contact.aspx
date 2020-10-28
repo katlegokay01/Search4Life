@@ -1,17 +1,61 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication1.Contact" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication1.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="../Images/back1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <font color="black"><h5 class="card-title">MsCoach</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </font> </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="../Images/back1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <font color="black"><h5 class="card-title">Cardo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </font> </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="../Images/back1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+    <font color="black"> <h5 class="card-title">Kgothatso</h5>
+       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+       </font> </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="../Images/back1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <font color="black"> <h5 class="card-title">Portia</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     </font> </div>
+    </div>
+  </div>
+      <div class="col mb-4">
+    <div class="card">
+      <img src="../Images/back1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <font color="black"><h5 class="card-title">Errol</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     </font> </div>
+    </div>
+  </div>
+      <div class="col mb-4">
+    <div class="card">
+      <img src="../Images/back1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <font color="black"><h5 class="card-title">Kea</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     </font> </div>
+    </div>
+  </div>
+</div>
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
 </asp:Content>

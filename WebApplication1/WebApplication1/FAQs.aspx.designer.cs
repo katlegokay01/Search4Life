@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.Account
+namespace WebApplication1
 {
 
 
-    public partial class Victim
+    public partial class FAQs
     {
     }
 }
