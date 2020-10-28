@@ -82,8 +82,8 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer >
-                <p>&copy; <%: DateTime.Now.Year %> < Search4Life by Gijima System Devs</p>
+            <footer>
+                <p><logoTextCol>&copy; <%: DateTime.Now.Year %>  Search4Life by Gijima System Devs</logoTextCol></p>
             </footer>
         </div>
     </form>
