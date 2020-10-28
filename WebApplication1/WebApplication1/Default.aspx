@@ -8,28 +8,43 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
+
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="Images/addict.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block display-4 ">
-        
-        <p>Some motivatinal quote goes here</p>
+        <div class="carousel-caption d-none d-md-block display-4 ">    
+        <p class="small"><logoTextCol>Connection</logoTextCol> is the opposite of <logoTextCol> Addiction</logoTextCol></p>
     </div>
+
         </div>
     <div class="carousel-item">
       <img src="Images/addict.jpg" class="d-block w-100" alt="...">
          <div class="carousel-caption d-none d-md-block display-4 ">
         
-        <p>Some motivatinal quote goes here</p>
+        <p class="small">“If you can quit for a day, you can quit for a lifetime.”
+             – Benjamin Alire Sáenz</p>
     </div>
     </div>
-    <div class="carousel-item">
+      <!-----
+         <div class="carousel-item">
       <img src="Images/addict.jpg" class="d-block w-100" alt="...">
          <div class="carousel-caption d-none d-md-block display-4 ">
         
-        <p>Some motivatinal quote goes here</p>
+        <p class="small">“Nothing is impossible; the word itself says, ‘I’m possible!’”
+– Audrey Hepburn</p>
     </div>
     </div>
+      -->
+
+    <div class="carousel-item">
+      <img src="Images/addict.jpg" class="d-block w-100" alt="...">
+         <div class="carousel-caption d-none d-md-block display-4 ">      
+        <p class="small">“Change must start from the individual. And the individual must want and feel ready to make such
+change.”
+– Efrat Cybulkiewicz</p>
+    </div>
+    </div>
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
