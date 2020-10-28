@@ -208,7 +208,10 @@ GUIDES YOU AROUND THE FIELDS.</p>
  
 
     <hr class="my-4">
-         <p>DO YOU NEED HELP DEALING WITH AN ADDICT? SEARCH4LIFE PROVIDES
+       
+        
+        
+        0.............................  <p>DO YOU NEED HELP DEALING WITH AN ADDICT? SEARCH4LIFE PROVIDES
 SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <a runat="server" href="~/#"><logoTextCol>“VICTIM “</LogoTextCol></a> BUTTON.</p>
          <a class="btn btn-success " href="#" role="button">Quick access</a>
 </div>

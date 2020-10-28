@@ -14,7 +14,7 @@ namespace WebApplication1.Account
     
     public partial class Register : Page
     {
-        string connectionString = @"Data Source=DESKTOP-IHJ15RC\MSSQL1;Initial Catalog=addiction;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        string connectionString = @"Data Source=DESKTOP-IHJ12RC\MSSQLSERVER1;Initial Catalog=addiction;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
