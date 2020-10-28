@@ -1,10 +1,15 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Main.master" AutoEventWireup="true" CodeBehind="Addict.aspx.cs" Inherits="WebApplication1.Addict" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Login.master" AutoEventWireup="true" CodeBehind="Addict.aspx.cs" Inherits="WebApplication1.Addict" %>
 
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <br />
-    <h2><center><b>RECOVERY IS ABOUT <cl>PROGRESSION</cl><br /> NOT <cl>PERFECTION</cl><font color="#fff">.</font></b></center></h2>
+ <style>
+body {
+
+  background-image: url(/Images/background.jpg);
+}</style>
+      
+    <h2><center><b>RECOVERY IS ABOUT <font color="#7aba7b";>PROGRESSION</font><br /> NOT <font color="#7aba7b";>PERFECTION</font><font color="#fff">.</font></b></center></h2>
     <div class="row">
         <div class="col-md-8">
             

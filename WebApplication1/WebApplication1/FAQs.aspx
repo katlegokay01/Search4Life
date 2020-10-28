@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="Frequently Asked Questions" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="FAQs.aspx.cs" Inherits="WebApplication1.FAQs" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+       <style>
+body {
 
+  background-image: url(/Images/background.jpg);
+}
+
+        </Style>
       <div class="jumbotron bg-dark text-white ">
       <div align="center"><h2><b><%: Title %><font color="#7aba7b";>.</font></b></h2></div><hr>
 

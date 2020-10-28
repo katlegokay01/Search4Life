@@ -112,7 +112,7 @@
             </div>
             <hr />
             <footer >
-                <p>&copy; <%: DateTime.Now.Year %> < Search4Life by Gijima System Devs</p>
+                <p>&copy; <%: DateTime.Now.Year %>  Search4Life by Gijima System Devs</p>
             </footer>
         
     </form>

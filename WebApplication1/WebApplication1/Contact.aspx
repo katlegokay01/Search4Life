@@ -6,54 +6,54 @@
     <div class="card">
       <img src="../Images/back1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">MsCoach</h5>
+       <font color="black"><h5 class="card-title">MsCoach</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+      </font> </div>
     </div>
   </div>
   <div class="col mb-4">
     <div class="card">
       <img src="../Images/back1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Cardo</h5>
+      <font color="black"><h5 class="card-title">Cardo</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+      </font> </div>
     </div>
   </div>
   <div class="col mb-4">
     <div class="card">
       <img src="../Images/back1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Kgothatso</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
+    <font color="black"> <h5 class="card-title">Kgothatso</h5>
+       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+       </font> </div>
     </div>
   </div>
   <div class="col mb-4">
     <div class="card">
       <img src="../Images/back1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Portia</h5>
+       <font color="black"> <h5 class="card-title">Portia</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+     </font> </div>
     </div>
   </div>
       <div class="col mb-4">
     <div class="card">
       <img src="../Images/back1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Errol</h5>
+      <font color="black"><h5 class="card-title">Errol</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+     </font> </div>
     </div>
   </div>
       <div class="col mb-4">
     <div class="card">
       <img src="../Images/back1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Kea</h5>
+      <font color="black"><h5 class="card-title">Kea</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+     </font> </div>
     </div>
   </div>
 </div>

@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="VICTIMS" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="Victim.aspx.cs" Inherits="WebApplication1.Account.Victim" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+   <style>
+body {
 
+  background-image: url(/Images/background.jpg);
+}
+
+        </Style>
 
     <div class="jumbotron bg-dark text-white ">
       <div align="center"><h1><b><%: Title %><font color="#7aba7b";>.</font></b></h1></div><hr>
