@@ -15,7 +15,7 @@ body {
          •		 	<font color="#7aba7b";>What Is a Rehab?</font><br />
 Rehab is a place where someone suffering from an addiction goes to, whether it be from alcohol, illegal drugs, or even prescription drugs<br /><br />
 
-•		 	 <font color="#7aba7b";>What Happens in Addiction Rehab?</font><br />
+•		 	 <font color="#7aba7b";>What Happens in Rehab?</font><br />
 Rehab includes a blend of detoxification (detox), group and individual substance use treatment, relapse prevention training, and aftercare 
 prior to completing the program in order to assist individuals to keep up with long term sobriety<br /><br />
 

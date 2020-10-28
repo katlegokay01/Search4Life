@@ -197,7 +197,7 @@ SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <logoTextCol>“VICTIM”</logoTextCo
     <div class="jumbotron bg-dark text-white ">
 
   <h1 class="display-4"><LogoTextCol>WELCOME</LogoTextCol></h1>
-  <p class="lead small">FOR FIRST TIME USERS PLEASE CLICK ON THE  <a runat="server" href="~/#"><logoTextCol>“CREATE PROFILE “</LogoTextCol></a>AND FILL IN
+  <p class="lead small">FOR FIRST TIME USERS PLEASE CLICK ON THE  <a runat="server" href="~/Profile"><logoTextCol>“CREATE PROFILE “</LogoTextCol></a>AND FILL IN
       ALL THE FIELDS. THE INFORMATION WILL BE KEPT PRIVATE.</p>
   <hr class="my-4">
 
@@ -209,7 +209,7 @@ GUIDES YOU AROUND THE FIELDS.</p>
 
     <hr class="my-4">
          <p>DO YOU NEED HELP DEALING WITH AN ADDICT? SEARCH4LIFE PROVIDES
-SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <a runat="server" href="~/Account/Victim"><logoTextCol>“VICTIM “</LogoTextCol></a> BUTTON.</p>
+SUPPORT STRUCTURES TO ACCESS THEM CLICK ON <a runat="server" href="~/Victim"><logoTextCol>“VICTIM “</LogoTextCol></a> BUTTON.</p>
          <a class="btn btn-success " href="#" role="button">Quick access</a>
 </div>
 </asp:Content>
