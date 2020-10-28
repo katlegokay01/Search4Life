@@ -16,7 +16,7 @@ UNINTENTIONALLY MAKE IT MORE SEVERE OR LONG-LASTING.<br /><br /></h5>
            <h5> 
             1. <a href="/images/Ways To Identify.PDF" download> <font color="#fff";>WAYS TO IDENTIFY ADDITS</font><sup> pdf</sup></a><br /><br />
             2. <a href="/images/HOW TO HELP A LOVED ONE STRUGGLING WITH ADDICTION.PDF" download> <font color="#fff";>HOW TO DEAL WITH THE SITUATION</font><sup> pdf</sup></a><br /><br />
-            3. <a href="/images/EMOTION MASHIGO.PDF" download> <font color="#fff";>SUGGESTED COUNSELORS</font><sup> pdf</sup></a><br /><br />
+            3. <a href="/images/Registered Counsellors.PDF" download> <font color="#fff";>SUGGESTED COUNSELORS</font><sup> pdf</sup></a><br /><br />
             4. <a id="https://chat.whatsapp.com/LVvYsrwf9iL3U2V9qGyO6x" href="https://chat.whatsapp.com/LVvYsrwf9iL3U2V9qGyO6x"> 
                 <font color="#fff";>LINK TO A SUPPORT WHATSAPP GROUP</font></a>
                   

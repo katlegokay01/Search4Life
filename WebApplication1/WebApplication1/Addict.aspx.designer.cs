@@ -40,33 +40,6 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.HyperLink harambe;
         
         /// <summary>
-        /// SADAG control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink SADAG;
-        
-        /// <summary>
-        /// Family_Life_Centre control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink Family_Life_Centre;
-        
-        /// <summary>
-        /// tell control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label tell;
-        
-        /// <summary>
         /// OpenAuthLogin control.
         /// </summary>
         /// <remarks>
