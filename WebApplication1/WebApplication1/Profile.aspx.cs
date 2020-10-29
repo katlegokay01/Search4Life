@@ -68,7 +68,7 @@ namespace WebApplication1
                     sqlCmd.ExecuteNonQuery();
                     //Clear();
                     lblMessage0.Text = "Profile Created";
-                   // Response.Redirect("/Account/Login");
+                    Response.Redirect("/Welcome");
                 }
             }
             catch (Exception)

@@ -18,7 +18,7 @@ namespace WebApplication1
 
         protected void btnSearch_Click(object sender, EventArgs e)
         {
-            // string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
+           
             string mainconn = @"Data Source=DESKTOP-IHJ15RC\MSSQL1;Initial Catalog=addiction;Integrated Security=True";
             SqlConnection sqlconn = new SqlConnection(mainconn);
             sqlconn.Open();

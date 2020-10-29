@@ -39,8 +39,8 @@ namespace WebApplication1.Account
                 }
                 else
                 {
-                   // FailureText.Text = "Invalid login attempt";
-                    //ErrorMessage.Visible = true;
+                   FailureText.Text = "Invalid login attempt";
+                    ErrorMessage.Visible = true;
                 }
             }
             }
