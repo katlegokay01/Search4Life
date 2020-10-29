@@ -38,7 +38,7 @@
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="txtDob" CssClass="col-md-2 control-label">Date OF Birth</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="txtDob" TextMode="Date" CssClass="form-control" Width="146px" />
+                <asp:TextBox runat="server" ID="txtDob" TextMode="Date" CssClass="form-control"  />
                 <asp:RequiredFieldValidator runat="server" ControlToValidate="txtDob"
                     CssClass="text-danger" ErrorMessage="date of birth field is required." />
             </div>
@@ -59,7 +59,7 @@
             <asp:Label runat="server" AssociatedControlID="DDGender" CssClass="col-md-2 control-label">Gender</asp:Label>
             <div class="col-md-10">
                
-                 <asp:DropDownList ID="DDGender" runat="server"  CssClass="form-control" Width="146px">
+                 <asp:DropDownList ID="DDGender" runat="server"  CssClass="form-control">
                      <asp:ListItem>Select</asp:ListItem>
                      <asp:ListItem>Male</asp:ListItem>
                      <asp:ListItem>Female</asp:ListItem>
@@ -73,7 +73,7 @@
             <asp:Label runat="server" AssociatedControlID="DDenthicity" CssClass="col-md-2 control-label">Ethnicity</asp:Label>
             <div class="col-md-10">
                
-                 <asp:DropDownList ID="DDenthicity" runat="server"  CssClass="form-control" Width="146px">
+                 <asp:DropDownList ID="DDenthicity" runat="server"  CssClass="form-control" >
                      <asp:ListItem>Select</asp:ListItem>
                      <asp:ListItem>African</asp:ListItem>
                      <asp:ListItem>Colored</asp:ListItem>
@@ -97,7 +97,7 @@
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="DDprovince" CssClass="col-md-2 control-label">Province</asp:Label>
             <div class="col-md-10">
-                <asp:DropDownList ID="DDprovince" runat="server" CssClass="form-control" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" Width="146px">
+                <asp:DropDownList ID="DDprovince" runat="server" CssClass="form-control" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                     <asp:ListItem>Select</asp:ListItem>
                     <asp:ListItem>Gauteng</asp:ListItem>
                     <asp:ListItem>Limpopo</asp:ListItem>
@@ -159,7 +159,8 @@
             <div class="form-check">
             <asp:CheckBox ID="Chkvictim" runat="server" value="victim" CssClass="form-check-input" OnCheckedChanged="Chkvictim_clicked" AutoPostBack="true"  />
               <asp:Label For="chkvictim" runat="server" AssociatedControlID="Chkvictim" CssClass="col-md-2 control-label">Victim</asp:Label>
-            
+            </div> <br />
+
                 <asp:TextBox runat="server" ID="txtrelation" CssClass="form-control" placeholder="Relation to victim (Parent?)"  />
                 
 
@@ -167,7 +168,7 @@
                 
 
             
-                </div>
+                
              </div>
 
 
