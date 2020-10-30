@@ -135,47 +135,44 @@
 
         <div class="col-md-4">
          <h1>Type Of User</h1>
-        </div>
+        
 
         <div class="form-group">
 
             <div class="form-check">
-            <asp:CheckBox ID="Chkaddict" runat="server" value="Addict" CssClass="form-check-input" OnCheckedChanged="Chkaddict_clicked" AutoPostBack="true" />
-              <asp:Label For="Chkaddict" runat="server" AssociatedControlID="Chkaddict" CssClass="col-md-2 control-label">Addict</asp:Label>
-            
-                <asp:TextBox runat="server" ID="txtnmbrofdays" CssClass="form-control" placeholder="Number of days been clean?"  />
-              
-
+            <asp:CheckBox ID="Chkaddict" runat="server" value="Addict" CssClass="form-check-input" OnCheckedChanged="Chkaddict_clicked" AutoPostBack="true" Text="Addict" />
+            <br />
+         
             <asp:TextBox runat="server" ID="txtdrugsADay" CssClass="form-control" placeholder="Consumption of Drug a Day" />
                 
 
             <asp:TextBox runat="server" ID="txttypeofdrug" CssClass="form-control" placeholder="Type of Drug Used" />
-                
+                 <asp:TextBox runat="server" ID="txtnmbrofdays" CssClass="form-control" placeholder="How long have you been using?"  />
                 </div>
-             </div>
+                </div>
+             
 
-        <div class="form-group">
+        
 
+            <div class="form-group">
             <div class="form-check">
-            <asp:CheckBox ID="Chkvictim" runat="server" value="victim" CssClass="form-check-input" OnCheckedChanged="Chkvictim_clicked" AutoPostBack="true"  />
-              <asp:Label For="chkvictim" runat="server" AssociatedControlID="Chkvictim" CssClass="col-md-2 control-label">Victim</asp:Label>
-            </div> <br />
-
-                <asp:TextBox runat="server" ID="txtrelation" CssClass="form-control" placeholder="Relation to victim (Parent?)"  />
+            <asp:CheckBox ID="Chkvictim" runat="server" value="victim" CssClass="form-check-input" OnCheckedChanged="Chkvictim_clicked" AutoPostBack="true" text="Victim" />
+             <br />
+           
+             
+          
+            <asp:TextBox runat="server" ID="txtrelation" CssClass="form-control" placeholder="Relation to victim (Parent?)"  />
                 
 
             <asp:TextBox runat="server" ID="Txtbehavior" CssClass="form-control" placeholder="How does the user Behave?" />
+              </div>   
+        </div>
+           
                 
-
-            
-                
-             </div>
+             
 
 
-
-        
-      
-        <div class="form-group">
+     <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                  <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
