@@ -51,7 +51,7 @@ body {
                            <p>Below are the links for job opportunties<br /> 
                                <asp:HyperLink ID="gijima" runat="server" NavigateUrl="https://www.gijima.com/"><font color="#7aba7b";>Gijima</font></asp:HyperLink> <br />
                                <asp:HyperLink ID="yes4youth" runat="server" NavigateUrl="https://yes4youth.mobi/register"><font color="#7aba7b";>Yes4youth</font></asp:HyperLink> <br />
-                               <asp:HyperLink ID="harambe" runat="server" NavigateUrl="https://www.harambee.mobi/Home/Index/EN"><font color="#7aba7b";>Harambe</font></asp:HyperLink><br />
+                               <asp:HyperLink ID="harambe" runat="server" NavigateUrl="https://www.harambee.mobi/Home/Index/EN"><font color="#7aba7b";>Harambee</font></asp:HyperLink><br />
                                
                            </p>
                         </div>

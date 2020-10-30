@@ -11,32 +11,5 @@ namespace WebApplication1.Account {
     
     
     public partial class Victim {
-        
-        /// <summary>
-        /// gijima control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink gijima;
-        
-        /// <summary>
-        /// yes4youth control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink yes4youth;
-        
-        /// <summary>
-        /// harambe control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink harambe;
     }
 }
