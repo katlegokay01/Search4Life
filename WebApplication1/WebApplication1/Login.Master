@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Welcome </title>
+    <title><%: Page.Title %> Search4Life </title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -63,7 +63,7 @@
             <div class="navbar-nav navbar-right">
                 <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/Welcome">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="~/#">About</a></li>
                      <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" runat="server" href="~/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <LogoTextCol>Quick access</LogoTextCol>
