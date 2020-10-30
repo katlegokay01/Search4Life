@@ -147,7 +147,7 @@
                 
 
             <asp:TextBox runat="server" ID="txttypeofdrug" CssClass="form-control" placeholder="Type of Drug Used" />
-                 <asp:TextBox runat="server" ID="txtnmbrofdays" CssClass="form-control" placeholder="Number of days been clean?"  />
+                 <asp:TextBox runat="server" ID="txtnmbrofdays" CssClass="form-control" placeholder="How long have you been using?"  />
                 </div>
                 </div>
              

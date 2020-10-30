@@ -29,7 +29,7 @@ body {
                                 <font color="#7aba7b";><b>7.</b></font> Humbly asking God to remove my flaws<br />
                                 <font color="#7aba7b";><b>8.</b></font> Making a list of all persons I have hurt and be willing to apologies to them<br />
                                 <font color="#7aba7b";><b>9.</b></font> Apologizing directly to such people wherever possible, except when do so would harm
-                                them or othersc<br />
+                                them or other<br />
                                 <font color="#7aba7b";><b>10.</b></font> Being consistent with the personal inventory and admitting to the wrongs I have done<br />
                                 <font color="#7aba7b";><b>11.</b></font> Sought enlightenment and connection with the higher power via prayer and meditation<br />
                                 <font color="#7aba7b";><b>12.</b></font> Carrying the message of the 12 Steps to others like me and practice these steps daily<br /><br />
