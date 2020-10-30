@@ -7,6 +7,8 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+   
   </ol>
 
   <div class="carousel-inner">
@@ -18,30 +20,30 @@
 
         </div>
     <div class="carousel-item">
-      <img src="Images/addict.jpg" class="d-block w-100" alt="...">
+      <img src="Images/African.jpeg" class="d-block w-100" alt="...">
          <div class="carousel-caption d-none d-md-block display-4 ">
         
-        <p class="small">“If you can quit for a day, you can quit for a lifetime.”
-             – Benjamin Alire Sáenz</p>
+        <p class="small">“It takes one cigarette to trigger addiction”
+             – System Developers</p>
     </div>
     </div>
-      <!-----
+      
          <div class="carousel-item">
-      <img src="Images/addict.jpg" class="d-block w-100" alt="...">
+      <img src="Images/Asian.jpg" class="d-block w-100" alt="...">
          <div class="carousel-caption d-none d-md-block display-4 ">
         
-        <p class="small">“Nothing is impossible; the word itself says, ‘I’m possible!’”
-– Audrey Hepburn</p>
-    </div>
-    </div>
-      -->
-
-    <div class="carousel-item">
-      <img src="Images/addict.jpg" class="d-block w-100" alt="...">
-         <div class="carousel-caption d-none d-md-block display-4 ">      
         <p class="small">“Change must start from the individual. And the individual must want and feel ready to make such
 change.”
 – Efrat Cybulkiewicz</p>
+    </div>
+    </div>
+     
+
+    <div class="carousel-item">
+      <img src="Images/Somalian.jpg" class="d-block w-100" alt="...">
+         <div class="carousel-caption d-none d-md-block display-4 ">      
+        <p class="small">”There's consequences for every action, choose yours wisely”
+- System Developers</p>
     </div>
     </div>
 
