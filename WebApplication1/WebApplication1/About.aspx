@@ -8,7 +8,7 @@
       <h1><font color="#7aba7b";><center><b>About Us</center></b></font></h1><hr />
      
 
-Serch4Life is an online platforme established on 20 September 2020.
+Serch4Life is an online platform established on 20 September 2020.
            This is an application developed for connecting addicts/recovering addicts,
            victims, and rehabilitation centers.
 
