@@ -130,15 +130,6 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.CheckBox Chkaddict;
         
         /// <summary>
-        /// txtnmbrofdays control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtnmbrofdays;
-        
-        /// <summary>
         /// txtdrugsADay control.
         /// </summary>
         /// <remarks>
@@ -155,6 +146,15 @@ namespace WebApplication1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txttypeofdrug;
+        
+        /// <summary>
+        /// txtnmbrofdays control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtnmbrofdays;
         
         /// <summary>
         /// Chkvictim control.

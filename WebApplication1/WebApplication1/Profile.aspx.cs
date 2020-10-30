@@ -15,6 +15,14 @@ namespace WebApplication1
         string connectionString = @"Data Source=DESKTOP-IHJ15RC\MSSQL1;Initial Catalog=addiction;Integrated Security=True";
         protected void Page_Load(object sender, EventArgs e)
         {
+           
+            /////////
+            if (Chkaddict.Checked)
+                Chkvictim.Checked = false;
+            else
+            {
+                Chkaddict.Checked = false;
+            }
 
         }
 
@@ -38,7 +46,20 @@ namespace WebApplication1
 
         protected void Chkaddict_clicked(object sender, EventArgs e)
         {
-
+            if (Chkaddict.Checked)
+            {
+               
+                txtrelation.Enabled = false;
+                Txtbehavior.Enabled = false;
+                
+            }
+            else
+            {
+               
+                txtrelation.Enabled = true;
+                Txtbehavior.Enabled = true;
+                
+            }
         }
 
         protected void CreateProfile_Click(object sender, EventArgs e)
